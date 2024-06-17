@@ -13,3 +13,5 @@ CREATE TABLE posts (
 );
 
 PD: Para realizar la conectividad, es importante que una vez creada la base de datos se conecte con el usuario o de lo contrario no permitirá eliminar o agregar la imagen.
+
+![imagen](https://github.com/NicoOrregoOlguin/Desaf-o---Like-Me-Parte-I-/assets/113557666/6ffcc0fd-e405-4a93-a6a0-0bec78ccacfb)
