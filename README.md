@@ -1,8 +1,15 @@
-# React + Vite
+# React + Express JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+IMPORTANTE! 
+Para que el proyecto funcione, debemos crear la base de datos, en este caso utilicé la siguiente QUERY mediante la terminal psql: 
+CREATE DATABASE likeme;
+\c likeme
+CREATE TABLE posts (
+    id SERIAL PRIMARY KEY,
+    titulo VARCHAR(25),
+    img VARCHAR(1000),
+    descripcion VARCHAR(255),
+    likes INT
+);
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+PD: Para realizar la conectividad, es importante que una vez creada la base de datos se conecte con el usuario o de lo contrario no permitirá eliminar o agregar la imagen.
