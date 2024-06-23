@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import router from "./backend/routes.js";
+import router from "./routes/routes.js";
 import path from "path";
 import { fileURLToPath } from "url";
 import { dirname } from "path";

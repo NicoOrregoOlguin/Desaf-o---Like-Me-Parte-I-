@@ -3,7 +3,7 @@ import {
   addPostQuery,
   editPostLikeQuery,
   deletePostQuery, 
-} from "./queries.js";
+} from "../query/queries.js";
 
 export function renderHome(req, res) {
   res.sendFile("views/index.html", { root: "." });

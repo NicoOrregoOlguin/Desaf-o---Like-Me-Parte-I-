@@ -1,4 +1,4 @@
-import pool from "./db/db.js";
+import pool from "./db.js";
 
 export async function getPostsQuery() {
   try {
